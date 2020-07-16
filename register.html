@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <title>Login</title>
+    <title>Register</title>
 </head>
 <nav class="navbar navbar-expand-md navbar-light bg-white shadow pb-3 mb-5">
     <a class="pl-4 pt-3 navbar-brand" href="#">
@@ -38,11 +38,16 @@
         <div class="col-6 mx-auto">
             <div class="card border-0">
                 <div class="card-body">
-                    <h3 class="card-title text-center mb-5">Log In</h3>
+                    <h3 class="card-title text-center mb-5">Daftar</h3>
                     <form action="">
                         <div class="form-group">
                             <label for="username">Username</label>
                             <input style="border:1px solid black" name="username" type="text" id="username"
+                                class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="fullname">Nama Lengkap</label>
+                            <input style="border:1px solid black" name="fullname" type="text" id="fullname"
                                 class="form-control">
                         </div>
                         <div class="form-group">
@@ -51,10 +56,15 @@
                                 class="form-control">
                         </div>
                         <div class="form-group">
-                            <label for="">Belum punya akun ? <a href="#">Daftar</a></label>
+                            <label for="password-confirmation">Konfirmasi Password</label>
+                            <input style="border:1px solid black" name="password-confirmation" type="password"
+                                id="password-confirmation" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Sudah punya akun ? <a href="#">Login</a></label>
                         </div>
                         <div class="col-4 text-center mx-auto">
-                            <button type="submit" class="px-4 btn bg-dark text-light">Log In</button>
+                            <button type="submit" class="px-4 btn bg-dark text-light">Daftar</button>
                         </div>
                     </form>
                 </div>
