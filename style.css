@@ -1,0 +1,32 @@
+.jumbotron {
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-shadow: 2px 2px #000;
+    height: 750px;
+  }
+  
+  .lead span {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  .masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('assets/landing-image.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .overlay {
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
