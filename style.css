@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap') ;
 /*Light(300) Regular(400) Medium(500) semi-Bold(600) Bold(700) Black(900) */
 
+
 .jumbotron {
     text-align: center;
     padding-top: 10rem;
@@ -13,7 +14,7 @@
     color: orange;
     font-weight: bold;
   }
-
+  /* Landing Page */
   .masthead .main-landing-image-layer {
     background: rgb(0, 0, 0, 0.35);
     height: 100%;
@@ -27,6 +28,22 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+
+  .font-navbar {
+    font-family: 'Poppins';
+    font-size: 16;
+    font-weight: 400;
+    color: #21272C;
+    letter-spacing: 10;
+  }
+
+  .font-button-navbar {
+    font-family: 'Poppins';
+    font-size: 16;
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: 0;
+  }
   
   .font-black {
     font-family: 'Poppins';
@@ -38,11 +55,27 @@
 
   .font-landing-regular {
     font-family: 'Poppins';
-    font-size: 20;
+    font-size: 30;
     font-weight: 400;
     color: #FFFFFF;
     letter-spacing: 20;
     padding-bottom: 0;
+  }
+
+  .font-menu-landingpage {
+    font-family: 'Poppins';
+    font-size: 40;
+    font-weight: 600;
+    color: #21272C;
+    letter-spacing: 20;
+  }
+
+  .font-submenu-landingpage {
+    font-family: 'Poppins';
+    font-size: 18;
+    font-weight: 300;
+    color: #21272C;
+    letter-spacing: 20;
   }
 
   .overlay {
@@ -56,3 +89,9 @@
     z-index: -1;
   }
 
+.footer {
+  background: #1B262C;
+}
+
+
+/* Landing Page */
