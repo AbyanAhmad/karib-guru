@@ -13,6 +13,11 @@
     color: orange;
     font-weight: bold;
   }
+
+  .masthead .main-landing-image-layer {
+    background: rgb(0, 0, 0, 0.35);
+    height: 100%;
+  }
   
   .masthead {
     height: 100vh;
@@ -23,6 +28,23 @@
     background-repeat: no-repeat;
   }
   
+  .font-black {
+    font-family: 'Poppins';
+    font-size: 50;
+    font-weight: 900;
+    color: #FFFFFF;
+    letter-spacing: 30;
+  }
+
+  .font-landing-regular {
+    font-family: 'Poppins';
+    font-size: 20;
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: 20;
+    padding-bottom: 0;
+  }
+
   .overlay {
     background-color: #000;
     opacity: 0.5;
@@ -33,3 +55,4 @@
     right: 0;
     z-index: -1;
   }
+
