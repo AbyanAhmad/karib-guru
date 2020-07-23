@@ -15,6 +15,13 @@
     font-weight: bold;
   }
   /* Landing Page */
+
+  .navbar-custom {
+    background: #FFFFFF ;
+    box-shadow: 0px 8px 8px -6px rgba(0,0,0,.5);
+    height: 58px;
+  }
+
   .masthead .main-landing-image-layer {
     background: rgb(0, 0, 0, 0.35);
     height: 100%;
@@ -29,20 +36,26 @@
     background-repeat: no-repeat;
   }
 
-  .font-navbar {
-    font-family: 'Poppins';
-    font-size: 16;
-    font-weight: 400;
-    color: #21272C;
-    letter-spacing: 10;
+  .navbar-nav.ml-auto.h5 li a {
+    color: #000000;
+  } 
+
+  .navbar a {
+    font-family: 'Poppins' !important;
+    font-size: 0.8em !important;
+    font-weight: 400 !important;
   }
 
-  .font-button-navbar {
+  .button-navbar {
     font-family: 'Poppins';
-    font-size: 16;
+    font-size: 0.9em;
     font-weight: 400;
     color: #FFFFFF;
     letter-spacing: 0;
+    width: 92px;
+    height: 38px;
+    border-radius: 5;
+    background: #1B262C;
   }
   
   .font-black {
