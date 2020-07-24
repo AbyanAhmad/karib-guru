@@ -22,9 +22,64 @@
     height: 58px;
   }
 
+  @media (max-width: 575.98px) { 
+    .navbar-collapse
+    {
+        background-color:#FFFFFF;
+    }
+    .font-black {
+      font-family: 'Poppins';
+      font-size: 30px;
+      font-weight: 900;
+      color: #FFFFFF;
+      letter-spacing: 30;
+    }
+    .font-landing-regular {
+      font-family: 'Poppins';
+      font-size: 15px;
+      font-weight: 400;
+      color: #FFFFFF;
+      letter-spacing: 20;
+    }
+    .font-menu-landingpage {
+      font-family: 'Poppins';
+      font-size: 20px;
+      font-weight: 600;
+      color: #21272C;
+      letter-spacing: 20;
+      text-align: center !important;
+    } 
+  
+    .font-submenu-landingpage {
+      font-family: 'Poppins';
+      font-size: 13px;
+      font-weight: 300;
+      color: #21272C;
+      letter-spacing: 20;
+      text-align: center !important;
+    }
+    .button-menu-right-landingpage {
+      margin-top: 38px;
+      margin-bottom: 50px; 
+      text-align: center;
+    }
+    .button-menu-left-landingpage {
+      right: -50%; /* left-align your element to center */
+      transform: translateX(50%);
+      margin-top: 38px;
+      margin-bottom: 50px;
+    }
+  }
+
   .masthead .main-landing-image-layer {
     background: rgb(0, 0, 0, 0.35);
     height: 100%;
+  }
+
+  .mobile-logo {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
   }
   
   .masthead {
@@ -35,6 +90,12 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+
+  .navbar-toggler{
+    background-color: #FFFFFF;
+    border:none;
+    color: #000;
+}
 
   .navbar-nav.ml-auto.h5 li a {
     color: #000000;
@@ -75,13 +136,13 @@
     padding-bottom: 0;
   }
 
-  /*.font-menu-landingpage {
+  .font-menu-landingpage {
     font-family: 'Poppins';
     font-size: 40;
     font-weight: 600;
     color: #21272C;
     letter-spacing: 20;
-  } */
+  } 
 
   .font-submenu-landingpage {
     font-family: 'Poppins';
@@ -89,6 +150,22 @@
     font-weight: 300;
     color: #21272C;
     letter-spacing: 20;
+  }
+
+  .button-menu-right-landingpage {
+    float: right;
+    margin-top: 38px;
+  }
+
+  .button-menu-left-landingpage {
+    float: left;
+    margin-top: 38px;
+  }
+
+  .text-button-landingpage {
+    font-family: 'Poppins';
+    font-size: 14;
+    font-weight: 500;
   }
 
   .overlay {
