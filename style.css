@@ -49,7 +49,6 @@
       letter-spacing: 20;
       text-align: center !important;
     } 
-  
     .font-submenu-landingpage {
       font-family: 'Poppins';
       font-size: 13px;
@@ -64,15 +63,38 @@
       margin-right: 30%;
     }
     .button-menu-left-landingpage {
-      right: -50%; /* left-align your element to center */
-      transform: translateX(50%);
+      margin-left: 30%;
       margin-top: 38px;
       margin-bottom: 50px;
     }
   }
 
-  @media (min-width: 576px) and (max-width: 767.98px) { 
-    
+  @media (min-width: 576px) and (max-width: 991.98px) { 
+    .image-tablet img {
+      height: 230px;
+      width: 230px;
+    }
+    .font-menu-landingpage {
+      font-family: 'Poppins';
+      font-size: 25px;
+      font-weight: 600;
+      color: #21272C;
+      letter-spacing: 20;
+    } 
+    .font-submenu-landingpage {
+      font-family: 'Poppins';
+      font-size: 14px;
+      font-weight: 300;
+      color: #21272C;
+      letter-spacing: 20;
+    }
+  }
+
+  .image-mobile-landingpage img {
+    height: 141px;
+    width: 141px;
+    margin-top: 53px;
+    margin-bottom: 40px;
   }
 
   .masthead .main-landing-image-layer {
