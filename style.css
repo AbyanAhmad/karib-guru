@@ -243,10 +243,13 @@
   color: #707070;
 }
 
-.instagram-logo {
-  height: 60px;
-  width: 60px;
-  color: #FFFFFF;
+.footer-logo {
+  margin-left: 0.8em;
+  filter : invert(44%) sepia(14%) saturate(5%) hue-rotate(323deg) brightness(96%) contrast(95%);
+}
+
+.footer-logo-parent img {
+  fill: white;
 }
 
 
