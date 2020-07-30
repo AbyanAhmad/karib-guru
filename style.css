@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap') ;
-/*Light(300) Regular(400) Medium(500) semi-Bold(600) Bold(700) Black(900) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
 
+/*Light(300) Regular(400) Medium(500) semi-Bold(600) Bold(700) Black(900) */
 
 .jumbotron {
     text-align: center;
@@ -8,141 +8,142 @@
     padding-bottom: 10rem;
     text-shadow: 2px 2px #000;
     height: 750px;
-  }
-  
-  .lead span {
+}
+
+.lead span {
     color: orange;
     font-weight: bold;
-  }
-  /* Landing Page */
+}
 
-  .navbar-custom {
-    background: #FFFFFF ;
+
+/* Landing Page */
+
+.navbar-custom {
+    background: #FFFFFF;
     height: 58px;
-  }
+    width: 100%;
+}
 
-
-  .navbar-collapse {
+.navbar-collapse {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     -ms-flex-positive: 1;
     flex-grow: 1;
     -ms-flex-align: center;
     align-items: center;
-  }
+}
 
-  @media (max-width: 575.98px) { 
-    .navbar-collapse
-    {
-        background-color:#FFFFFF;
+@media (max-width: 575.98px) {
+    .navbar-collapse {
+        background-color: #FFFFFF;
     }
     .nav-item {
-      margin-top: 10px;
+        margin-top: 10px;
     }
     .font-black {
-      font-family: 'Poppins';
-      font-size: 30px;
-      font-weight: 900;
-      color: #FFFFFF;
-      letter-spacing: 30;
-      margin-top: 5em;
-      text-shadow: 0px 3px 6px rgb(0, 0, 0, 0.16);
-      border: none;
+        font-family: 'Poppins';
+        font-size: 30px;
+        font-weight: 900;
+        color: #FFFFFF;
+        letter-spacing: 30;
+        margin-top: 5em;
+        text-shadow: 0px 3px 6px rgb(0, 0, 0, 0.16);
+        border: none;
     }
     .font-landing-regular {
-      font-family: 'Poppins';
-      font-size: 15px;
-      font-weight: 400;
-      color: #FFFFFF;
-      letter-spacing: 20;
+        font-family: 'Poppins';
+        font-size: 15px;
+        font-weight: 400;
+        color: #FFFFFF;
+        letter-spacing: 20;
     }
     .font-menu-landingpage {
-      font-family: 'Poppins';
-      font-size: 20px;
-      font-weight: 600;
-      color: #21272C;
-      letter-spacing: 20;
-      text-align: center !important;
-    } 
-    .font-submenu-landingpage {
-      font-family: 'Poppins';
-      font-size: 13px;
-      font-weight: 300;
-      color: #21272C;
-      letter-spacing: 20;
-      text-align: center !important;
+        font-family: 'Poppins';
+        font-size: 20px;
+        font-weight: 600;
+        color: #21272C;
+        letter-spacing: 20;
+        text-align: center !important;
     }
-  }
+    .font-submenu-landingpage {
+        font-family: 'Poppins';
+        font-size: 13px;
+        font-weight: 300;
+        color: #21272C;
+        letter-spacing: 20;
+        text-align: center !important;
+    }
+}
 
-  @media (min-width: 576px) and (max-width: 991.98px) { 
+@media (min-width: 576px) and (max-width: 991.98px) {
     .image-tablet img {
-      height: 230px;
-      width: 230px;
+        height: 230px;
+        width: 230px;
     }
     .font-menu-landingpage {
-      font-family: 'Poppins';
-      font-size: 25px;
-      font-weight: 600;
-      color: #21272C;
-      letter-spacing: 20;
-    } 
-    .font-submenu-landingpage {
-      font-family: 'Poppins';
-      font-size: 14px;
-      font-weight: 300;
-      color: #21272C;
-      letter-spacing: 20;
+        font-family: 'Poppins';
+        font-size: 25px;
+        font-weight: 600;
+        color: #21272C;
+        letter-spacing: 20;
     }
-  }
+    .font-submenu-landingpage {
+        font-family: 'Poppins';
+        font-size: 14px;
+        font-weight: 300;
+        color: #21272C;
+        letter-spacing: 20;
+    }
+}
 
-  .image-mobile-landingpage img {
+.image-mobile-landingpage img {
     height: 141px;
     width: 141px;
     margin-top: 53px;
     margin-bottom: 40px;
-  }
+}
 
-  .button-mobile-landingpage {
+.button-mobile-landingpage {
     margin-top: 24px;
-  }
+}
 
-  .masthead .main-landing-image-layer {
+.masthead .main-landing-image-layer {
     background: rgb(0, 0, 0, 0.35);
     height: 100%;
-  }
+}
 
-  .mobile-logo {
+.mobile-logo {
     transform: translateX(-50%);
     left: 50%;
     position: absolute;
-  }
-  
-  .masthead {
+}
+
+.masthead {
     height: 100vh;
     min-height: 500px;
     background-image: url('assets/landing-image.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-  }
+}
 
-  .navbar-toggler{
+.navbar-toggler {
     background-color: #FFFFFF;
-    border:none;
+    border: none;
     color: #000;
 }
 
-  .navbar-nav.ml-auto.h5 li a {
+.navbar-nav.ml-auto.h5 li a {
     color: #000000;
-  } 
+}
 
-  .navbar a {
+.navbar a {
     font-family: 'Poppins' !important;
     font-size: 0.8em !important;
     font-weight: 400 !important;
-  }
+}
 
-  .button-navbar {
+.button-navbar {
     font-family: 'Poppins';
     font-size: 0.9em;
     font-weight: 400;
@@ -152,9 +153,9 @@
     height: 38px;
     border-radius: 5;
     background: #1B262C;
-  }
-  
-  .font-black {
+}
+
+.font-black {
     font-family: 'Poppins';
     font-size: 50;
     font-weight: 900;
@@ -163,50 +164,50 @@
     border: none;
     margin-top: 1.5em;
     text-shadow: 0px 3px 6px rgb(0, 0, 0, 0.16);
-  }
+}
 
-  .font-landing-regular {
+.font-landing-regular {
     font-family: 'Poppins';
     font-size: 30;
     font-weight: 400;
     color: #FFFFFF;
     letter-spacing: 20;
     padding-bottom: 0;
-  }
+}
 
-  .font-menu-landingpage {
+.font-menu-landingpage {
     font-family: 'Poppins';
     font-size: 40;
     font-weight: 600;
     color: #21272C;
     letter-spacing: 20;
-  } 
+}
 
-  .font-submenu-landingpage {
+.font-submenu-landingpage {
     font-family: 'Poppins';
     font-size: 18;
     font-weight: 300;
     color: #21272C;
     letter-spacing: 20;
-  }
+}
 
-  .button-menu-right-landingpage {
+.button-menu-right-landingpage {
     float: right;
     margin-top: 38px;
-  }
+}
 
-  .button-menu-left-landingpage {
+.button-menu-left-landingpage {
     float: left;
     margin-top: 38px;
-  }
+}
 
-  .text-button-landingpage {
+.text-button-landingpage {
     font-family: 'Poppins';
     font-size: 14;
     font-weight: 500;
-  }
+}
 
-  .overlay {
+.overlay {
     background-color: #000;
     opacity: 0.5;
     position: absolute;
@@ -215,41 +216,63 @@
     bottom: 0;
     right: 0;
     z-index: -1;
-  }
+}
 
 .footer {
-  background: #1B262C;
+    background: #1B262C;
 }
 
 .footer-title {
-  font-family: 'Poppins';
-  font-size: 16px;
-  font-weight: 500;
-  color: #FFFFFF;
-  margin-bottom: 5px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 5px;
 }
 
 .footer-subtitle {
-  font-family: 'Poppins';
-  font-size: 16px;
-  font-weight: 400;
-  color: #707070;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
 }
 
 .footer-menu {
-  font-family: 'Poppins';
-  font-size: 16px;
-  font-weight: 400;
-  color: #707070;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
 }
 
 .footer-logo {
-  margin-left: 0.8em;
-  filter : invert(44%) sepia(14%) saturate(5%) hue-rotate(323deg) brightness(96%) contrast(95%);
+    margin-left: 0.8em;
+    filter: invert(44%) sepia(14%) saturate(5%) hue-rotate(323deg) brightness(96%) contrast(95%);
 }
 
-.footer-logo-parent img {
-  fill: white;
+.footer-title-mobile {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.footer-subtitle-mobile {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    color: #707070;
+}
+
+.footer-menu-mobile {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    color: #707070;
+}
+
+.footer-logo-mobile {
+    filter: invert(44%) sepia(14%) saturate(5%) hue-rotate(323deg) brightness(96%) contrast(95%);
 }
 
 
