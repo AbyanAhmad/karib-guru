@@ -15,14 +15,12 @@
     font-weight: bold;
 }
 
+.body-login {
+    background-color: #000;
+}
+
 
 /* Landing Page */
-
-.navbar-custom {
-    background: #FFFFFF;
-    height: 58px;
-    width: 100%;
-}
 
 .navbar-collapse {
     -ms-flex-preferred-size: 100%;
@@ -31,6 +29,13 @@
     flex-grow: 1;
     -ms-flex-align: center;
     align-items: center;
+}
+
+.font-navbar {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
 }
 
 @media (max-width: 575.98px) {
@@ -277,3 +282,33 @@
 
 
 /* Landing Page */
+
+
+/*Login Page */
+
+.login-container {
+    margin-top: 5em;
+}
+
+.login-title {
+    font-family: 'Poppins';
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #000000;
+}
+
+.input-width {
+    width: 20em;
+    height: 2.5em;
+}
+
+.button-login {
+    background: #1B262C;
+}
+
+.font-form {
+    font-family: 'Poppins';
+    font-size: 1em;
+    font-weight: 400;
+    color: #000000;
+}
