@@ -19,6 +19,10 @@
     background-color: #000;
 }
 
+.body-global {
+    background: #F9F9F9;
+}
+
 
 /* Landing Page */
 
@@ -312,3 +316,60 @@
     font-weight: 400;
     color: #000000;
 }
+
+
+/*Login Page */
+
+
+/*Workshop */
+
+.margin-table {
+    margin-top: 3em;
+}
+
+.table-background {
+    background: #1B262C;
+}
+
+.table-top-row {
+    font-family: 'Poppins';
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #FFFFFF !important;
+}
+
+.table-row {
+    font-family: 'Poppins';
+    font-size: 1em;
+    font-weight: 500;
+    color: #000000;
+    letter-spacing: 0.05em;
+}
+
+.button-row {
+    border-radius: 2em;
+    font-family: 'Poppins';
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.workshop-title {
+    font-family: 'Poppins';
+    font-size: 2em;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 0.05em;
+    margin-top: 4em;
+}
+
+.workshop-subtitle {
+    font-family: 'Poppins';
+    font-size: 1em;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0.05em;
+}
+
+
+/*Workshop */
