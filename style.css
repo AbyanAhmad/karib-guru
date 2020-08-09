@@ -294,6 +294,10 @@
     margin-top: 5em;
 }
 
+.custom-card {
+    background: transparent;
+}
+
 .login-title {
     font-family: 'Poppins';
     font-size: 2.5em;
