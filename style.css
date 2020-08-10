@@ -2,6 +2,9 @@
 
 /*Light(300) Regular(400) Medium(500) semi-Bold(600) Bold(700) Black(900) */
 
+
+/* Filter Generator for SVG  https://codepen.io/sosuke/pen/Pjoqqp?__cf_chl_jschl_tk__=9a48fb9d11ce0facdc952ab4db573b643d172c26-1597061727-0-Ae0-NhPSNjyS42LPxZj2e0faEi4WDMLN1Ri9zkHu1zgfLL-3gc1rByXG1xctWYUkvbwlwOkOdmH04Sqt0Z0ZiblLV0eR39bi1dwQGo6brm8tOntxLbSgcr_04Z9mWQzP8HRDdWV93so11-x7ExN21mSsLregc4UuonF9ZAqz859GeJyokibQPpcTJnhVZuX2mWzOjN01Z1wJE9vx1Zdt443gmL65aJpzgt6WcIDv8UcSabO2EX6VlDq221fASy2ZZD0DgVb-QW-dszq7zMb1l3mcjiykeQpt22P18pN8o8SU4KzfUvub_rwsui5dlkQPFqTYS3ZbnzNSm36X5S37wLeKk_Z4GTZpFWsZEDdUJmU3*/
+
 .jumbotron {
     text-align: center;
     padding-top: 10rem;
@@ -411,7 +414,28 @@
 }
 
 .btn-video {
-    margin: 0 auto;
+    background: #1B262C;
+    border: none;
+    text-align: center;
+    display: block;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.plus-icon {
+    float: left;
+    filter: invert(100%) sepia(2%) saturate(7%) hue-rotate(336deg) brightness(104%) contrast(104%);
+    width: 18px;
+    margin-right: 10px;
+}
+
+.btn-materi {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
 }
 
 
