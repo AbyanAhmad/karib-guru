@@ -315,6 +315,10 @@
 
 .button-login {
     background: #1B262C;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
 }
 
 .font-form {
@@ -530,3 +534,29 @@ form.example::after {
 
 
 /* Bank Materi - Lihat Video*/
+
+
+/* Bank Materi - Upload Video*/
+
+.title-upload-video {
+    margin-top: 4em;
+    font-family: 'Poppins';
+    font-size: 2em;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.btn-upload-video {
+    background: #1B262C;
+    border: none;
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+
+/* Bank Materi - Upload Video*/
