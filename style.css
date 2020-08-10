@@ -386,6 +386,71 @@
 
 .search-button {
     margin-top: 8em;
+    border: none;
+    border-radius: 10px;
+    /*font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF; */
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #1B262C;
+    float: left;
+    width: 80%;
+    background: transparent;
+    border-radius: 5px 0px 0px 5px;
+}
+
+
+/* Style the submit button */
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #1B262C;
+    color: #FFFFFF;
+    font-size: 17px;
+    border: 1px solid #1B262C;
+    border-left: none;
+    border-radius: 0px 5px 5px 0px;
+    /* Prevent double borders */
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+
+/* Clear floats */
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.plus-icon {
+    float: left;
+    filter: invert(100%) sepia(2%) saturate(7%) hue-rotate(336deg) brightness(104%) contrast(104%);
+    width: 18px;
+    margin-right: 10px;
+}
+
+.btn-materi {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    height: 45px;
+}
+
+.tambah-materi-button {
+    margin-top: 8em;
 }
 
 .card-custom {
@@ -418,20 +483,6 @@
     border: none;
     text-align: center;
     display: block;
-    font-family: 'Poppins';
-    font-size: 16px;
-    font-weight: 400;
-    color: #FFFFFF;
-}
-
-.plus-icon {
-    float: left;
-    filter: invert(100%) sepia(2%) saturate(7%) hue-rotate(336deg) brightness(104%) contrast(104%);
-    width: 18px;
-    margin-right: 10px;
-}
-
-.btn-materi {
     font-family: 'Poppins';
     font-size: 16px;
     font-weight: 400;
