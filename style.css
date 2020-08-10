@@ -385,5 +385,34 @@
     margin-top: 8em;
 }
 
+.card-custom {
+    display: block;
+    border: none;
+    margin-right: auto;
+    background: transparent;
+}
+
+.video-title {
+    font-family: 'Poppins';
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+    padding-right: auto;
+    text-align: center;
+}
+
+.video-writer {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    padding-right: auto;
+    text-align: center;
+}
+
+.btn-video {
+    margin: 0 auto;
+}
+
 
 /* Bank Materi */
