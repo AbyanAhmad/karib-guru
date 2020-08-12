@@ -85,6 +85,12 @@
         letter-spacing: 20;
         text-align: center !important;
     }
+    .card-custom {
+        display: block;
+        border: none;
+        background: transparent;
+        margin: auto;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 991.98px) {
@@ -106,7 +112,20 @@
         color: #21272C;
         letter-spacing: 20;
     }
+    .tambah-materi-button-sm {
+        font-family: 'Poppins';
+        font-size: 12px;
+        font-weight: 400;
+        color: #FFFFFF;
+    }
+    .plus-icon {
+        float: left;
+        filter: invert(100%) sepia(2%) saturate(7%) hue-rotate(336deg) brightness(104%) contrast(104%);
+        width: 12px;
+    }
 }
+
+@media (max-width: 991.98px) {}
 
 .image-mobile-landingpage img {
     height: 141px;
@@ -392,10 +411,19 @@
     margin-top: 8em;
     border: none;
     border-radius: 10px;
-    /*font-family: 'Poppins';
+    font-family: 'Poppins';
     font-size: 16px;
     font-weight: 600;
-    color: #FFFFFF; */
+    color: #FFFFFF;
+}
+
+.search-button-mobile {
+    border: none;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
 }
 
 form.example input[type=text] {
@@ -453,8 +481,18 @@ form.example::after {
     height: 45px;
 }
 
-.tambah-materi-button {
+.tambah-materi {
     margin-top: 8em;
+}
+
+.tambah-materi-button-mobile {
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    text-align: center;
+    display: block;
 }
 
 .card-custom {
@@ -560,3 +598,20 @@ form.example::after {
 
 
 /* Bank Materi - Upload Video*/
+
+
+/* Bantuan*/
+
+.btn-bantuan {
+    border: none;
+    text-align: center;
+    display: block;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 2em;
+}
+
+
+/* Bantuan*/
